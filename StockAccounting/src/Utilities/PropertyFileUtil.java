@@ -13,5 +13,6 @@ public class PropertyFileUtil
 		configProperties.load(fis);
 		
 		return configProperties.getProperty(key);
+		
 	}
 }
